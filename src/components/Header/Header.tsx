@@ -19,8 +19,9 @@ export default function Header() {
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} className=" m-1 flex">GAL<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><Link href="/acasa">Structura organizatorica</Link></li>
-                                <li><Link href="/acasa">Comisia de selectie a proiectelor</Link></li>
+                                <li><Link href="/details-of-organisations">Details of organisation</Link></li>
+                                <li><Link href="/implementarea-sdl-prin-leader">Implementarea SDL prin LEADER</Link></li>
+                                <li><Link href="https://ec.europa.eu/enrd/leader-clld_en.html" target="_blank">Informatii generale</Link></li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
@@ -76,8 +77,9 @@ export default function Header() {
                             <li>
                                 <span className="menu-title">GAL</span>
                                 <ul className="p-2">
-                                    <li><Link href="/acasa">Structura organizatorica</Link></li>
-                                    <li><Link href="/acasa">Comisia de selectie a proiectelor</Link></li>
+                                    <li><Link href="/details-of-organisations">Details of organisation</Link></li>
+                                    <li><Link href="/implementarea-sdl-prin-leader">Implementarea SDL prin LEADER</Link></li>
+                                    <li><Link href="https://ec.europa.eu/enrd/leader-clld_en.html" target="_blank">Informatii generale</Link></li>
                                 </ul>
                             </li>
                             <li>
