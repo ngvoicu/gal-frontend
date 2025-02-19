@@ -24,33 +24,38 @@ export default function Header() {
                                 <li><Link href="https://ec.europa.eu/enrd/leader-clld_en.html" target="_blank">Informatii generale</Link></li>
                             </ul>
                         </div>
-                        <div className="dropdown dropdown-hover">
-                            <div tabIndex={0} className=" m-1 flex">Teritoriul Microregiunii<Image alt="down" width={16} height={16} src={caretDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><Link href="/acasa">Submenu 1</Link></li>
-                                <li><Link href="/acasa">Submenu 2</Link></li>
-                            </ul>
-                        </div>
-                        <div className="m-1 flex"><Link href="/acasa">Strategia de dezvoltare locala</Link></div>
+                        <div className="m-1 flex"><Link href="/teritoriul-microregiunii">Teritoriul Microregiunii</Link></div>
+                        <div className="m-1 flex"><Link href="/strategia-de-dezvoltare-locala/SDL_GAL_DOBROGEA_CENTRALA.pdf" target="_blank">Strategia de dezvoltare locala</Link></div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} className=" m-1 flex">Interventii FEADR<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><Link href="/acasa">Submenu 1</Link></li>
-                                <li><Link href="/acasa">Submenu 2</Link></li>
+                                <li><Link href="/acasa">Durabilitatea mediului in satul dobrogean</Link></li>
+                                <li><Link href="/acasa">Investitii in domeniul sănătăţii</Link></li>
+                                <li><Link href="/acasa">Investiţii şi servicii de baza destinate comunității</Link></li>
+                                <li><Link href="/acasa">Investitii colective in domeniul agricol</Link></li>
+                                <li><Link href="/acasa">Start-up neagricol</Link></li>
+                                <li><Link href="/acasa">Activitati neagricole in satul dobrogean</Link></li>
+                                <li><Link href="/acasa">Cooperare inter-teritoriala pentru agricultura si turism</Link></li>
                             </ul>
                         </div>
+
                         <div className="dropdown dropdown-hover">
-                            <div tabIndex={0} className=" m-1 flex">Interventii FSE+<Image alt="down" width={16} height={16} src={caretDown} /></div>
+                            <div tabIndex={0} className=" m-1 flex">Media<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><Link href="/acasa">Submenu 1</Link></li>
-                                <li><Link href="/acasa">Submenu 2</Link></li>
+                                <li><Link href="/media/actiuni-animare">Actiuni animare</Link></li>
+                                <li><Link href="/media/calendar.pdf" target="_blank">Calendar</Link></li>
+                                <li><Link href="/acasa">Comunicate</Link></li>
+                                <li><Link href="/acasa">Comunicari: AM, RRN, AFIR</Link></li>
+                                <li><Link href="/media/materiale-publicitare">Materiale publicitare</Link></li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} className=" m-1 flex">Finantare proiecte<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><Link href="/acasa">Submenu 1</Link></li>
-                                <li><Link href="/acasa">Submenu 2</Link></li>
+                                <li><Link href="/acasa">Calendar apeluri selectie</Link></li>
+                                <li><Link href="/acasa">Apeluri selectie</Link></li>
+                                <li><Link href="/acasa">Rapoarte selectie</Link></li>
+                                <li><Link href="/acasa">Proiecte finalizate</Link></li>
                             </ul>
                         </div>
                         <div className="m-1 flex"><Link href="/contact">Contact</Link></div>
@@ -82,33 +87,37 @@ export default function Header() {
                                     <li><Link href="https://ec.europa.eu/enrd/leader-clld_en.html" target="_blank">Informatii generale</Link></li>
                                 </ul>
                             </li>
-                            <li>
-                                <span className="menu-title">Teritoriul Microregiunii</span>
-                                <ul className="p-2">
-                                    <li><Link href="/acasa">Submenu 1</Link></li>
-                                    <li><Link href="/acasa">Submenu 2</Link></li>
-                                </ul>
-                            </li>
-                            <li><Link href="/acasa">Strategia de dezvoltare locala</Link></li>
+                            <li><Link href="/teritoriul-microregiunii">Teritoriul Microregiunii</Link></li>
+                            <li><Link href="/strategia-de-dezvoltare-locala/SDL_GAL_DOBROGEA_CENTRALA.pdf" target="_blank">Strategia de dezvoltare locala</Link></li>
                             <li>
                                 <span className="menu-title">Interventii FEADR</span>
                                 <ul className="p-2">
-                                    <li><Link href="/acasa">Submenu 1</Link></li>
-                                    <li><Link href="/acasa">Submenu 2</Link></li>
+                                    <li><Link href="/acasa">Durabilitatea mediului in satul dobrogean</Link></li>
+                                    <li><Link href="/acasa">Investitii in domeniul sănătăţii</Link></li>
+                                    <li><Link href="/acasa">Investiţii şi servicii de baza destinate comunității</Link></li>
+                                    <li><Link href="/acasa">Investitii colective in domeniul agricol</Link></li>
+                                    <li><Link href="/acasa">Start-up neagricol</Link></li>
+                                    <li><Link href="/acasa">Activitati neagricole in satul dobrogean</Link></li>
+                                    <li><Link href="/acasa">Cooperare inter-teritoriala pentru agricultura si turism</Link></li>
                                 </ul>
                             </li>
                             <li>
-                                <span className="menu-title">Interventii FSE+</span>
+                                <span className="menu-title">Media</span>
                                 <ul className="p-2">
-                                    <li><Link href="/acasa">Submenu 1</Link></li>
-                                    <li><Link href="/acasa">Submenu 2</Link></li>
+                                    <li><Link href="/media/actiuni-animare">Actiuni animare</Link></li>
+                                    <li><Link href="/media/calendar.pdf" target="_blank">Calendar</Link></li>
+                                    <li><Link href="/acasa">Comunicate</Link></li>
+                                    <li><Link href="/acasa">Comunicari: AM, RRN, AFIR</Link></li>
+                                    <li><Link href="/media/materiale-publicitare">Materiale publicitare</Link></li>
                                 </ul>
                             </li>
                             <li>
                                 <span className="menu-title">Finantare proiecte</span>
                                 <ul className="p-2">
-                                    <li><Link href="/acasa">Submenu 1</Link></li>
-                                    <li><Link href="/acasa">Submenu 2</Link></li>
+                                    <li><Link href="/acasa">Calendar apeluri selectie</Link></li>
+                                    <li><Link href="/acasa">Apeluri selectie</Link></li>
+                                    <li><Link href="/acasa">Rapoarte selectie</Link></li>
+                                    <li><Link href="/acasa">Proiecte finalizate</Link></li>
                                 </ul>
                             </li>
                             <li><Link href="/contact">Contact</Link></li>
