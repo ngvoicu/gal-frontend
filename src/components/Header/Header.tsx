@@ -43,7 +43,7 @@ export default function Header() {
                             <div tabIndex={0} className=" m-1 flex">Media<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                                 <li><Link href="/media/actiuni-animare">Actiuni animare</Link></li>
-                                <li><Link href="/media/calendar.pdf" target="_blank">Calendar</Link></li>
+                                <li><Link href="/media/calendar-trim-2.pdf" target="_blank">Calendar</Link></li>
                                 <li><Link href="/acasa">Comunicate</Link></li>
                                 <li><Link href="/acasa">Comunicari: AM, RRN, AFIR</Link></li>
                                 <li><Link href="/media/materiale-publicitare">Materiale publicitare</Link></li>
@@ -58,6 +58,7 @@ export default function Header() {
                                 <li><Link href="/acasa">Proiecte finalizate</Link></li>
                             </ul>
                         </div>
+                        <div className="m-1 flex"><Link href="/arhiva">Arhiva</Link></div>
                         <div className="m-1 flex"><Link href="/contact">Contact</Link></div>
                     </ul>
                 </div>
@@ -105,7 +106,7 @@ export default function Header() {
                                 <span className="menu-title">Media</span>
                                 <ul className="p-2">
                                     <li><Link href="/media/actiuni-animare">Actiuni animare</Link></li>
-                                    <li><Link href="/media/calendar.pdf" target="_blank">Calendar</Link></li>
+                                    <li><Link href="/media/calendar-trim-2.pdf" target="_blank">Calendar</Link></li>
                                     <li><Link href="/acasa">Comunicate</Link></li>
                                     <li><Link href="/acasa">Comunicari: AM, RRN, AFIR</Link></li>
                                     <li><Link href="/media/materiale-publicitare">Materiale publicitare</Link></li>
@@ -120,6 +121,7 @@ export default function Header() {
                                     <li><Link href="/acasa">Proiecte finalizate</Link></li>
                                 </ul>
                             </li>
+                            <li><Link href="/arhiva">Arhiva</Link></li>
                             <li><Link href="/contact">Contact</Link></li>
                         </ul>
                     </div>
