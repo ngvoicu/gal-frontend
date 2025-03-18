@@ -13,8 +13,11 @@ export default function Acasa() {
             </div>
             <div className="container flex flex-col flex-grow sm:flex-row bg-white">
                 <main className="flex-1 p-6 bg-white border-b sm:border-b-0 sm:border-r">
-                    <h1 className="text-2xl font-bold mb-4">Acasa</h1>
-                    <p>-</p>
+                    {/* <h1 className="text-2xl font-bold mb-4">Acasa</h1> */}
+                    <p className="text-center">JUD CONSTANTA</p>
+                    <p className="text-center">COMUNA TORTOMAN</p>
+                    <p className="text-center">STR 1 DECEMBRIE 1918, NR 32</p>
+                    <p className="text-center">PROGRAM DE LUCRU:  LUNI – VINERI  - 13.00-17.00 </p>
                 </main>
                 <Sidebar />
             </div>

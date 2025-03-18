@@ -5,6 +5,17 @@ import Image from "next/image";
 import banner from "../../../../public/helper/banner-gal.jpg";
 import panou from "../../../../public/media/materiale-publicitare/panou.jpg";
 import rollup from "../../../../public/media/materiale-publicitare/rollup.jpg";
+
+import unu from "../../../../public/media/materiale-publicitare/altele/01-tortoman-sediu-gal.jpg";
+import doi from "../../../../public/media/materiale-publicitare/altele/02-tortoman-program.jpg";
+import trei from "../../../../public/media/materiale-publicitare/altele/ALIMAN.jpg";
+import patru from "../../../../public/media/materiale-publicitare/altele/CIOCIRLIA.jpg";
+import cinci from "../../../../public/media/materiale-publicitare/altele/PESTEREA.jpg";
+import sase from "../../../../public/media/materiale-publicitare/altele/RASOVA.jpg";
+import sapte from "../../../../public/media/materiale-publicitare/altele/SEIMENI.jpg";
+import opt from "../../../../public/media/materiale-publicitare/altele/TOPALU.jpg";
+import noua from "../../../../public/media/materiale-publicitare/altele/TORTOMAN.jpg";
+
 import Link from "next/link";
 
 export default function Acasa() {
@@ -19,6 +30,16 @@ export default function Acasa() {
                     <h1 className="text-2xl font-bold mb-4">Materiale publicitare</h1>
                     <Image src={panou} alt="panou" width={943} height={641}/>
                     <Image src={rollup} alt="rollup" width={943} height={1257}/>
+
+                    <Image src={unu} alt="sediu"/>
+                    <Image src={doi} alt="program"/>
+                    <Image src={trei} alt="aliman"/>
+                    <Image src={patru} alt="ciocarlia"/>
+                    <Image src={cinci} alt="pesterea"/>
+                    <Image src={sase} alt="rasova"/>
+                    <Image src={sapte} alt="seimeni"/>
+                    <Image src={opt} alt="topalu"/>
+                    <Image src={noua} alt="tortoman"/>
 
                     <h2 className="text-xl font-bold mt-4">Afise</h2>
                     <ul className="list-none list-inside">

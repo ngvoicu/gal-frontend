@@ -14,11 +14,11 @@ export default function Acasa() {
             <div className="container flex flex-col flex-grow sm:flex-row bg-white">
                 <main className="flex-1 p-6 bg-white border-b sm:border-b-0 sm:border-r">
                     <h1 className="text-2xl font-bold mb-4">Contact</h1>
-                    <p>Adresa:</p>
-                    <p>1. Str Podgoriilor, nr 1, Medgidia</p>
-                    <p>2. Str 1 Decembrie 1918, nr. 32, Tortoman</p>
+                    <p>sediul social din teritoriu GALDC:  Str 1 Decembrie 1918, nr. 32, Tortoman</p>
+                    <p> Program lucru luni - vineri 13.00-17.00</p>
                     <br/>
-                    <p>Program de lucru: luni – vineri 9-17</p>
+                    <p>sediul administrativ:  Str Podgoriilor, nr 1, Medgidia </p>
+                    <p>Program lucru luni – vineri 9.00 – 17.00</p>
                     <br/>
                     <p>Telefon; 0762286145, 0723185714</p>
                     <br/>
