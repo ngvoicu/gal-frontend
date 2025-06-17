@@ -15,6 +15,10 @@ export default function Acasa() {
             <div className="container flex flex-col flex-grow sm:flex-row bg-white">
                 <main className="flex-1 p-6 bg-white border-b sm:border-b-0 sm:border-r">
                     <h1 className="text-2xl font-bold mb-4">Actiuni animare</h1>
+                    <h2 className="text-xl font-bold mb-4">EVENIMENT DE ANIMARE A TERITORIULUI TRIM III COMUNA SARAIU</h2>
+                    <ul className="list-none list-inside mb-4">
+                        <li>1. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3/afis-saraiu-trim-3.pdf">Afis comuna Saraiu</Link></li>
+                    </ul>
                     <h2 className="text-xl font-bold mb-4">Anunturi - trimestrul al III-lea - anul 1</h2>
                     <ul className="list-none list-inside">
                         <li>1. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3/anunt-aliman.pdf">COMUNA ALIMAN</Link></li>
