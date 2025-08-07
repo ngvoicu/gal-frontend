@@ -27,6 +27,7 @@ export default function Acasa() {
                     <p>www.galdc.ro</p>
                     <br/>
                     <p>social media: linkedin.com/in/galdc-medgidia-009542341</p>
+                    <p>https://www.facebook.com/livadariu.constantin.16?locale=ro_RO</p>
                 </main>
                 <Sidebar />
             </div>
