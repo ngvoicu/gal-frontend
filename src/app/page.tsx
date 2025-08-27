@@ -32,7 +32,7 @@ export default function Home() {
                 <h1 className="text-2xl font-bold mt-4">LEADER 2023-2027</h1>
               </Link>
               <p className="mt-4 mb-6 text-gray-800">
-                Strategia de dezvoltare locala a teritoriului GAL Valea Racovei aferenta perioadei 2023 – 2027
+                Strategia de dezvoltare locala a teritoriului GAL Dobrogea Centrala aferenta perioadei 2023 – 2027
               </p>
               <Link className="w-full" href="/acasa">
                 <button className="w-full max-w-xs btn bg-blue-600 text-white hover:bg-blue-500 rounded-full">
@@ -48,7 +48,7 @@ export default function Home() {
                 <h1 className="text-2xl font-bold mt-4">LEADER 2014-2020</h1>
               </Link>
               <p className="mt-4 mb-6 text-gray-800">
-                Strategia de dezvoltare locala a teritoriului GAL Valea Racovei aferenta perioadei 2014 – 2020
+                Strategia de dezvoltare locala a teritoriului GAL Dobrogea Centrala aferenta perioadei 2014 – 2020
               </p>
               <Link className="w-full" href="https://old.galdc.ro">
                 <button className="w-full max-w-xs btn bg-green-600 text-white hover:bg-green-500 rounded-full">
