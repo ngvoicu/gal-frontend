@@ -29,13 +29,13 @@ export default function Header() {
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} className=" m-1 flex">Interventii FEADR<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><Link href="/acasa">Durabilitatea mediului in satul dobrogean</Link></li>
-                                <li><Link href="/acasa">Investitii in domeniul sănătăţii</Link></li>
-                                <li><Link href="/acasa">Investiţii şi servicii de baza destinate comunității</Link></li>
-                                <li><Link href="/acasa">Investitii colective in domeniul agricol</Link></li>
-                                <li><Link href="/acasa">Start-up neagricol</Link></li>
-                                <li><Link href="/acasa">Activitati neagricole in satul dobrogean</Link></li>
-                                <li><Link href="/acasa">Cooperare inter-teritoriala pentru agricultura si turism</Link></li>
+                                <li><Link href="/interventii/1-durabilitatea-mediului-in-satul-dobrogean.pdf">Durabilitatea mediului in satul dobrogean</Link></li>
+                                <li><Link href="/interventii/2-investitii-in-domeniul-sanatatii.pdf">Investitii in domeniul sănătăţii</Link></li>
+                                <li><Link href="/interventii/3-investitii-si-servicii-de-baza-destinate-comunitatii.pdf">Investiţii şi servicii de baza destinate comunității</Link></li>
+                                <li><Link href="/interventii/4-investitii-colective-in-domeniul-agricol.pdf">Investitii colective in domeniul agricol</Link></li>
+                                <li><Link href="/interventii/5-start-up-neagricol.pdf">Start-up neagricol</Link></li>
+                                <li><Link href="/interventii/6-activitati-neagricole-in-satul-dobrogean.pdf">Activitati neagricole in satul dobrogean</Link></li>
+                                <li><Link href="/interventii/7-cooperare-inter-teritoriala.pdf">Cooperare inter-teritoriala pentru agricultura si turism</Link></li>
                             </ul>
                         </div>
 
@@ -93,13 +93,13 @@ export default function Header() {
                             <li>
                                 <span className="menu-title">Interventii FEADR</span>
                                 <ul className="p-2">
-                                    <li><Link href="/acasa">Durabilitatea mediului in satul dobrogean</Link></li>
-                                    <li><Link href="/acasa">Investitii in domeniul sănătăţii</Link></li>
-                                    <li><Link href="/acasa">Investiţii şi servicii de baza destinate comunității</Link></li>
-                                    <li><Link href="/acasa">Investitii colective in domeniul agricol</Link></li>
-                                    <li><Link href="/acasa">Start-up neagricol</Link></li>
-                                    <li><Link href="/acasa">Activitati neagricole in satul dobrogean</Link></li>
-                                    <li><Link href="/acasa">Cooperare inter-teritoriala pentru agricultura si turism</Link></li>
+                                <li><Link href="/interventii/1-durabilitatea-mediului-in-satul-dobrogean.pdf">Durabilitatea mediului in satul dobrogean</Link></li>
+                                <li><Link href="/interventii/2-investitii-in-domeniul-sanatatii.pdf">Investitii in domeniul sănătăţii</Link></li>
+                                <li><Link href="/interventii/3-investitii-si-servicii-de-baza-destinate-comunitatii.pdf">Investiţii şi servicii de baza destinate comunității</Link></li>
+                                <li><Link href="/interventii/4-investitii-colective-in-domeniul-agricol.pdf">Investitii colective in domeniul agricol</Link></li>
+                                <li><Link href="/interventii/5-start-up-neagricol.pdf">Start-up neagricol</Link></li>
+                                <li><Link href="/interventii/6-activitati-neagricole-in-satul-dobrogean.pdf">Activitati neagricole in satul dobrogean</Link></li>
+                                <li><Link href="/interventii/7-cooperare-inter-teritoriala.pdf">Cooperare inter-teritoriala pentru agricultura si turism</Link></li>
                                 </ul>
                             </li>
                             <li>
