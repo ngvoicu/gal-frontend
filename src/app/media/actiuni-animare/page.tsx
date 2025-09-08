@@ -15,29 +15,25 @@ export default function Acasa() {
             <div className="container flex flex-col flex-grow sm:flex-row bg-white">
                 <main className="flex-1 p-6 bg-white border-b sm:border-b-0 sm:border-r">
                     <h1 className="text-2xl font-bold mb-4">Actiuni animare</h1>
-                    <h2 className="text-xl font-bold mb-4">EVENIMENT DE ANIMARE A TERITORIULUI TRIM III COMUNA SARAIU</h2>
-                    <ul className="list-none list-inside mb-4">
-                        <li>1. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3/afis-saraiu-trim-3.pdf">Afis comuna Saraiu</Link></li>
-                    </ul>
-                    <h2 className="text-xl font-bold mb-4">Anunturi - trimestrul al III-lea - reactualizate - anul 1</h2>
+                    <h2 className="text-xl font-bold mb-4">Anunturi - trimestrul al IV-lea - anul 1</h2>
                     <ul className="list-none list-inside">
-                        <li>1. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-aliman.pdf">COMUNA ALIMAN</Link></li>
-                        <li>2. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-ciocirlia.pdf">COMUNA CIOCIRLIA</Link></li>
-                        <li>3. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-crucea.pdf">COMUNA CRUCEA</Link></li>
-                        <li>4. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-garliciu.pdf">COMUNA GARLICIU</Link></li>
-                        <li>5. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-ghindaresti.pdf">COMUNA GHINDARESTI</Link></li>
-                        <li>6. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-horia.pdf">COMUNA HORIA</Link></li>
-                        <li>7. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-mircea-voda.pdf">COMUNA MIRCEA VODA</Link></li>
-                        <li>8. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-pestera.pdf">COMUNA PESTERA</Link></li>
-                        <li>9. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-rasova.pdf">COMUNA RASOVA</Link></li>
-                        <li>10. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-saligny.pdf">COMUNA SALIGNY</Link></li>
-                        <li>11. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-saraiu.pdf">COMUNA SARAIU</Link></li>
-                        <li>12. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-seimeni.pdf">COMUNA SEIMENI</Link></li>
-                        <li>13. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-topalu.pdf">COMUNA TOPALU</Link></li>
-                        <li>14. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-tortoman.pdf">COMUNA TORTOMAN</Link></li>
-                        <li>15. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-ciobanu.pdf">COMUNA CIOBANU</Link></li>
-                        <li>16. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-harsova.pdf">ORAS HIRSOVA</Link></li>
-                        <li>17. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-3-reactualizat/anunt-casimcea.pdf">COMUNA CASIMCEA</Link></li>
+                        <li>1. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-aliman.docx">COMUNA ALIMAN</Link></li>
+                        <li>2. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-ciocirlia.docx">COMUNA CIOCIRLIA</Link></li>
+                        <li>3. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-crucea.docx">COMUNA CRUCEA</Link></li>
+                        <li>4. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-garliciu.docx">COMUNA GARLICIU</Link></li>
+                        <li>5. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-ghindaresti.docx">COMUNA GHINDARESTI</Link></li>
+                        <li>6. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-horia.docx">COMUNA HORIA</Link></li>
+                        <li>7. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-mircea-voda.docx">COMUNA MIRCEA VODA</Link></li>
+                        <li>8. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-pestera.docx">COMUNA PESTERA</Link></li>
+                        <li>9. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-rasova.docx">COMUNA RASOVA</Link></li>
+                        <li>10. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-saligny.docx">COMUNA SALIGNY</Link></li>
+                        <li>11. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-saraiu.docx">COMUNA SARAIU</Link></li>
+                        <li>12. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-seimeni.docx">COMUNA SEIMENI</Link></li>
+                        <li>13. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-topalu.docx">COMUNA TOPALU</Link></li>
+                        <li>14. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-tortoman.docx">COMUNA TORTOMAN</Link></li>
+                        <li>15. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-ciobanu.docx">COMUNA CIOBANU</Link></li>
+                        <li>16. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-harsova.docx">ORAS HIRSOVA</Link></li>
+                        <li>17. <Link className="text-blue-600 underline hover:text-blue-800" href="/media/actiuni-animare/anunturi-an-1-sem-4/anunt-casimcea.docx">COMUNA CASIMCEA</Link></li>
                     </ul>
                 </main>
                 <Sidebar />
