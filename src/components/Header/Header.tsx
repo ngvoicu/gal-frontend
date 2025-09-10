@@ -53,7 +53,7 @@ export default function Header() {
                             <div tabIndex={0} className=" m-1 flex">Finantare proiecte<Image alt="down" width={16} height={16} src={caretDown} /></div>
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                                 <li><Link href="/finantare-proiecte/calendar-apeluri-selectie">Calendar apeluri selectie</Link></li>
-                                <li><Link href="/acasa">Apeluri selectie</Link></li>
+                                <li><Link href="/finantare-proiecte/apeluri-selectie">Apeluri selectie</Link></li>
                                 <li><Link href="/acasa">Rapoarte selectie</Link></li>
                                 <li><Link href="/acasa">Proiecte finalizate</Link></li>
                             </ul>
@@ -116,7 +116,7 @@ export default function Header() {
                                 <span className="menu-title">Finantare proiecte</span>
                                 <ul className="p-2">
                                     <li><Link href="/finantare-proiecte/calendar-apeluri-selectie">Calendar apeluri selectie</Link></li>
-                                    <li><Link href="/acasa">Apeluri selectie</Link></li>
+                                    <li><Link href="/finantare-proiecte/apeluri-selectie">Apeluri selectie</Link></li>
                                     <li><Link href="/acasa">Rapoarte selectie</Link></li>
                                     <li><Link href="/acasa">Proiecte finalizate</Link></li>
                                 </ul>
