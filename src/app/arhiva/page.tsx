@@ -15,6 +15,13 @@ export default function Arhiva() {
             <div className="container flex flex-col flex-grow sm:flex-row bg-white">
                 <main className="flex-1 p-6 bg-white border-b sm:border-b-0 sm:border-r">
                     <h1 className="text-2xl font-bold mb-4">Arhiva</h1>
+                    <h2 className="text-2xl font-bold mb-4">Calendar apeluri selectie</h2>
+                    <ul className="list-none list-inside">
+                        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/media/calendar-estimativ-DR-36-AN-1.jpg" target="_blank">calendar-estimativ-DR-36-AN-1</Link></li>
+                        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/media/calendar-AM-estimativ-an-1-trim-III-2025.pdf" target="_blank">calendar-AM-estimativ-an-1-trim-III-2025</Link></li>
+                        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/media/calendar-AM-estimativ-an-1-trim-IV-2025.pdf" target="_blank">calendar-AM-estimativ-an-1-trim-IV-2025</Link></li>
+                    </ul>
+                    
                     <Link className="text-blue-600 underline hover:text-blue-800" href="/media/calendar-trim-3_2.pdf" target="_blank">Calendar reactualizat</Link>
 
                     <h2 className="text-xl font-bold mb-4">EVENIMENT DE ANIMARE A TERITORIULUI TRIM III COMUNA SARAIU</h2>
