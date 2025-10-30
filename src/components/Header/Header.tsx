@@ -44,7 +44,7 @@ export default function Header() {
                             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                                 <li><Link href="/media/actiuni-animare">Actiuni animare</Link></li>
                                 <li><Link href="/media/calendar animare TR4.pdf" target="_blank">Calendar</Link></li>
-                                <li><Link href="/acasa">Comunicate</Link></li>
+                                <li><Link href="/media/comunicate">Comunicate</Link></li>
                                 <li><Link href="/acasa">Comunicari: AM, RRN, AFIR</Link></li>
                                 <li><Link href="/media/materiale-publicitare">Materiale publicitare</Link></li>
                             </ul>
@@ -107,7 +107,7 @@ export default function Header() {
                                 <ul className="p-2">
                                     <li><Link href="/media/actiuni-animare">Actiuni animare</Link></li>
                                     <li><Link href="/media/calendar animare TR4.pdf" target="_blank">Calendar</Link></li>
-                                    <li><Link href="/acasa">Comunicate</Link></li>
+                                    <li><Link href="/media/comunicate">Comunicate</Link></li>
                                     <li><Link href="/acasa">Comunicari: AM, RRN, AFIR</Link></li>
                                     <li><Link href="/media/materiale-publicitare">Materiale publicitare</Link></li>
                                 </ul>
