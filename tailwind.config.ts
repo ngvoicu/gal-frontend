@@ -1,4 +1,8 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
+import daisyui from "daisyui";
+import textStroke from "@designbycode/tailwindcss-text-stroke";
+import themes from "daisyui/src/theming/themes";
 
 export default {
   content: [
@@ -17,12 +21,12 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("daisyui"), require("@designbycode/tailwindcss-text-stroke"),],
+  plugins: [typography, daisyui, textStroke],
   daisyui: {
     themes: [
       {
         corporate: {
-          ...require("daisyui/src/theming/themes")["corporate"],
+          ...themes["corporate"],
           // "background-color": "#ffffff",
           // "base-100": "#ffffff",
         }
@@ -30,4 +34,3 @@ export default {
     ],
   }
 } satisfies Config;
-
