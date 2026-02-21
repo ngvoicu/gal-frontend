@@ -15,9 +15,10 @@ export default function ApeluriSelectie() {
             <div className="container flex flex-col flex-grow sm:flex-row bg-white">
                 <main className="flex-1 p-6 bg-white border-b sm:border-b-0 sm:border-r">
                     <h1 className="text-2xl font-bold mb-4">Apeluri selectie</h1>
+                    <Link className="text-blue-600 underline hover:text-blue-800" href="https://www.afir.ro/domenii-de-interventie/detalii-si-anexe-dr-36/" target="_blank">Detalii si anexe dr 36</Link><br />
+                    <Link className="text-blue-600 underline hover:text-blue-800" href="/media/anunt-erata-apel-selectie-I4.pdf" target="_blank">Anunț erată la apel de selecție - I4</Link><br />
                     <Link className="text-blue-600 underline hover:text-blue-800" href="/media/apel_selectie_interventia_5.rar" target="_blank">APEL SELECTIE INTERVENTIA 5</Link><br />
                     <Link className="text-blue-600 underline hover:text-blue-800" href="/media/apel_selectie_interventia_4.rar" target="_blank">APEL SELECTIE INTERVENTIA 4</Link><br />
-
                 </main>
                 <Sidebar />
             </div>
