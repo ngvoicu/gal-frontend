@@ -26,6 +26,7 @@ export default function Arhiva() {
                     <br />
                     <h1 className="text-2xl font-bold mb-4">Media - Calendar</h1>
                     <ul className="list-none list-inside">
+                        <li><Link className="text-blue-600 underline hover:text-blue-800" href="/media/calendar-animare-tr1-an-2.pdf" target="_blank">CALENDARUL INTALNIRILOR DE ANIMARE IN PREAMBULUL LANSARII INTERVENTIILOR TRIMESTRUL 1/ AN 2</Link></li>
                         <li><Link className="text-blue-600 underline hover:text-blue-800" href="/media/calendar animare TR4.pdf" target="_blank">CALENDARUL INTALNIRILOR DE ANIMARE IN PREAMBULUL LANSARII INTERVENTIILOR TRIMESTRUL 4/ 2025</Link></li>
                     </ul>
                     <br />
