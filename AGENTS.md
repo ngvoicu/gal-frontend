@@ -1,0 +1,29 @@
+- Next.js 16 App Router
+- React 19 + TypeScript
+- Tailwind CSS 3
+- DaisyUI 4
+- ESLint 9
+- App routes live in `src/app`
+- Shared UI lives in `src/components`
+- Static files and downloadable media live in `public`
+- Custom type declarations live in `src/types`
+- Keep changes small and localized
+- Follow the existing App Router structure; do not introduce a new routing pattern unless explicitly requested
+- Reuse existing component and page patterns before creating new abstractions
+- Preserve Romanian route names, labels, and content conventions already used in the app
+- Treat files in `public/media`, `public/interventii`, `public/helper`, and `public/teritoriul-microregiunii` as content assets; do not rename, move, or recompress them unless explicitly requested
+- Prefer editing existing pages and components over adding new folders or architecture
+- Keep styling consistent with the current Tailwind + DaisyUI approach
+- Avoid refactoring unrelated page content while implementing a focused change
+- Install dependencies: `npm ci`
+- Start dev server: `npm run dev`
+- Build production app: `npm run build`
+- Run lint: `npm run lint`
+- Run `npm run lint` after code changes
+- Run `npm run build` when changing routing, layout, or framework-level behavior
+- If a task affects static assets or page rendering, verify in the browser before final handoff when possible
+- Default to server components unless client-side interactivity is required
+- Add `"use client"` only where needed
+- Keep component names explicit and file names aligned with existing conventions
+- Prefer framework primitives such as `next/link` and `next/image` when appropriate
+- Validate inputs at boundaries and keep internal props simple and typed
